@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           Day 3
+        </title>
+    </head>
+    <body>
+        <form>
+             <label>Name</label>
+        <input type="text">
+        <br><br>
+         <label>Password</label>
+        <input type="password">
+        <br><br>
+           <input type:"Submit" value = "Submit">
+        </form>
+        <hr>
+    <form>
+        <label>Name</label>
+        <input type="text">
+        <br><br>
+        <label>Email</label>
+        <input type="email">
+        <br><br>
+        <label>Phn No</label>
+        <input type="tel">
+        <br><br>
+        <label>Password</label>
+        <input type="password">
+        <br><br>
+        <label>Confirm password</label>
+        <input type="password">
+        <br><br>
+        <input type:"Submit" value = "Submit">
+    </form>
+    <hr>
+    <form>
+        Gender : 
+        <input type="radio" name="Gender">Male
+        <input type="radio" name="Gender">Female
+        <input type="radio" name="Gender">others<br>
+        Hobbies :<br>
+         <input type="checkbox" name="Hobbies">Drawing<br>
+         <input type="checkbox" name="Hobbies">singing<br>
+         <input type="checkbox" name="Hobbies">dancing<br>
+         <input type="checkbox" name="Hobbies">eating<br>
+
+    </form>
+    <hr>
+    <form>
+        DOB : <input type="Date"> <br><br>
+        Time : <input type="time">
+    </form>
+    <hr>
+    <form>
+        select country :
+        <select>
+            <option>India</option>
+            <option>USA</option>
+            <option>UK</option>
+            <option>German</option>
+            <option>Canada</option>
+            <option>Australia</option>
+            <option>Europe</option>
+        </select>
+    </form>
+    <hr>
+    <form>
+        Name :<input type="text"><br><br>
+        Email :<input type="email"><br><br>
+        Ratings : 
+        <input type="radio" name="rate"> 1
+        <input type="radio" name="rate"> 2
+        <input type="radio" name="rate"> 3
+        <input type="radio" name="rate"> 4
+        <input type="radio" name="rate"> 5<br><br>
+         Comments : <br><textarea rows="5" cols="50"></textarea>
+
+    </form>
+      <hr>
+      <form>
+         <label>Name</label>
+        <input type="text" placeholder="Enter name" required>
+        <br><br>
+        <label>Email</label>
+        <input type="email" placeholder="Enter email" required>
+        <br><br>
+        <label>Phn No</label>
+        <input type="tel" placeholder="124567891">
+        <br><br>
+        <label>Password</label>
+        <input type="password" placeholder="atleast 8 char" required><br><br>
+        <input type="submit" value=" Submit">
+      </form>
+      <hr>
+      <form>
+        <h1 style="text-align: center;">Student Application</h1>
+          <label>Name</label>
+        <input type="text" placeholder="Enter name" required>
+        <br><br>
+          <label>Age</label>
+        <input type="tel" placeholder="Enter Age" required>
+        <br><br>
+          <label>DOB</label>
+        <input type="date" placeholder="Enter DOB" required>
+        <br><br>
+        <label>Email</label>
+        <input type="email" placeholder="Enter email" required>
+        <br><br>
+        <label>Phn No</label>
+        <input type="tel" placeholder="124567891">
+        <br><br>
+        Course : <select>
+            <option>CSE</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>MECH</option>
+            <option>CIVIL</option>
+            <option>FT</option>
+        </select> <br><br>
+        Gender : <input type="radio" name="Gender">Male
+         <input type="radio" name="Gender">Female
+         <input type="radio" name="Gender">Others <br><br>
+        Skills : 
+        <input type="checkbox" name="Skills">Java
+        <input type="checkbox" name="Skills">HTML
+        <input type="checkbox" name="Skills">CSS
+        <input type="checkbox" name="Skills">JS
+        <input type="checkbox" name="Skills">Excel
+        <input type="checkbox" name="Skills">PowerBi <br><br>
+        <input type="submit" value=" Apply">
+        <input type="reset" value=" Reset">
+    </form>
+
+</body>
+
+</html>
