@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Day 7 HW</title>
+    <style>
+        section {
+            margin: 40px;
+
+        }
+
+        section div {
+            margin: 20px;
+            background: #b9ade6;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .wrap {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .wrap div {
+            width: 120px;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+        }
+
+        .between {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .height {
+            display: flex;
+            align-items: center;
+            height: 200px;
+            background: lightgray;
+        }
+
+        .hide button {
+            visibility: hidden;
+        }
+
+        span {
+            display: block;
+            background: pink;
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>1. Row Direction</h2>
+    <section class="row">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </section>
+
+    <h2>2. Column Direction</h2>
+    <section class="column">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </section>
+
+    <h2>3. Flex Wrap</h2>
+    <section class="wrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </section>
+
+    <h2>4. Center Horizontally</h2>
+    <section class="center">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+    </section>
+
+    <h2>5. Space Between</h2>
+    <section class="between">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </section>
+
+    <h2>6. Different Heights</h2>
+    <section class="height">
+        <div style="height:50px;">1</div>
+        <div style="height:100px;">2</div>
+        <div style="height:150px;">3</div>
+    </section>
+
+    <h2>7. Visibility Hidden</h2>
+    <section class="hide">
+        <button style="color: blue;">Click Me</button>
+    </section>
+
+    <h2>8. Inline Div</h2>
+    <div style="background:rgb(82, 9, 184); color:rgb(22, 2, 2); padding:20px;"> Hii I am Jaiss!!</div>
+
+    <h2>9. Span as Block</h2>
+    <span>1</span>
+    <span>2</span>
+
+</body>
+
+</html>
