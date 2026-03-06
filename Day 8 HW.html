@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Selectors Tasks</title>
+
+    <style>
+        .div1 p {
+            color: blue;
+        }
+
+        .div2>p {
+            color: red;
+        }
+
+        p+h2 {
+            color: green;
+        }
+
+        .div3~p {
+            background-color: yellow;
+        }
+
+        .img1 {
+            opacity: 0.5;
+        }
+
+        .img2:hover {
+            opacity: 1;
+        }
+
+        a:visited {
+            color: purple;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        input:focus {
+            border: 2px solid blue;
+        }
+
+        ul li:first-child {
+            color: red;
+            font-weight: bold;
+        }
+
+        #b1 {
+            background-color: lightblue;
+        }
+
+        .b2 {
+            background-color: lightgreen;
+        }
+
+        button {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Task 1</h2>
+    <div class="div1">
+        <p>A swan is a large and beautiful water bird.It has a long neck and white feathers.</p>
+        <p>Swans usually live in lakes, rivers, and ponds.They are excellent swimmers and move smoothly on water.</p>
+        <p>Swans eat plants, small fish, and insects.They are known for their graceful and elegant movement.Swans
+            usually stay with one partner for life.</p>
+    </div>
+    <hr>
+
+
+    <h2>Task 2</h2>
+    <div class="div2">
+        <p>Direct child paragraph</p>
+        <div>
+            <p>Not direct child paragraph</p>
+        </div>
+    </div>
+    <hr>
+
+    <h2>Task 3</h2>
+    <p>Swans eat plants, small fish, and insects.They are known for their graceful and elegant movement.Swans usually
+        stay with one partner for life.</p>
+    <h2>Jais</h2>
+    <h2>Dinju</h2>
+
+    <hr>
+    <h2>Task 4</h2>
+    <div class="div3">This is a div</div>
+    <p>A swan is a large and beautiful water bird.It has a long neck and white feathers.</p>
+    <p>Swans usually live in lakes, rivers, and ponds.They are excellent swimmers and move smoothly on water.</p>
+    <p>Swans eat plants, small fish, and insects.They are known for their graceful and elegant movement.Swans usually
+        stay with one partner for life.</p>
+
+    <hr>
+    <h2>Task 5</h2>
+    <img class="img1"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeEM0tuwVpgYxaMRldHPwZTDRYh5hh0GMgZA&s">
+
+    <hr>
+    <h2>Task 6</h2>
+    <img class="img2"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeEM0tuwVpgYxaMRldHPwZTDRYh5hh0GMgZA&s">
+    <img class="img2"
+        src="data:image/jpeg;base64,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">
+
+    <hr>
+    <h2>Task 7</h2>
+    <a href="https://www.google.com">Visit Google</a>
+
+    <hr>
+    <h2>Task 8</h2>
+    <input type="text" placeholder="Click here">
+
+    <hr>
+    <h2>Task 9</h2>
+    <ul>
+        <li>Jais</li>
+        <li>Dhaks</li>
+        <li>Gowrii</li>
+        <li>Kayal</li>
+        <li>Badhu</li>
+    </ul>
+
+    <hr>
+    <h2>Task 10</h2>
+    <button id="b1">Button 1</button>
+    <button class="b2">Button 2</button>
+    <button>Button 3</button>
+
+</body>
+
+</html>
